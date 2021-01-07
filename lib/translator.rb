@@ -14,7 +14,7 @@ def load_library(path)
   emoji_hash[:happy] = {:english =>":)", :japanese => "(＾ｖ＾)"}
   emoji_hash[:kiss] = {:english =>   - ":*", :japanese => "(*^3^)/~☆"}
   emoji_hash[:sad] = {:english =>":'(", :japanese => "(Ｔ▽Ｔ)"}
-  emoji_hash[:surprised] = {}
+  emoji_hash[:surprised] = {:english => ":o", :japanese => "o_O"}
   emoji_hash[:wink] = {}
   emoji_hash[:get_emoticon] = {}
   emoji = YAML.load_file(path)
