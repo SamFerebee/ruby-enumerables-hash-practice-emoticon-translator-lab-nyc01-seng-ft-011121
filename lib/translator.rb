@@ -68,21 +68,21 @@ def get_japanese_emoticon(path, emoticon)
   elsif emoji["embarrassed"].has_value?(emoticon)
     return emoji["embarrassed"][:japanese]
   elsif emoji["fish"].has_value?(emoticon)
-    return "fish"
+    return emoji["fish"][:japanese]
   elsif emoji["glasses"].has_value?(emoticon)
-    return "glasses"
+    return emoji["glasses"][:japanese]
   elsif emoji["grinning"].has_value?(emoticon)
     return emoji["grinning"][:japanese]
   elsif emoji["happy"].has_value?(emoticon)
-    return "happy"
+    return emoji["happy"][:japanese]
   elsif emoji["kiss"].has_value?(emoticon)
-    return "kiss"
+    return emoji["kiss"][:japanese]
   elsif emoji["sad"].has_value?(emoticon)
-    return "sad"
+    return emoji["sad"][:japanese]
   elsif emoji["surprised"].has_value?(emoticon)
-    return "surprised"
+    return emoji["surprised"][:japanese]
   elsif emoji["wink"].has_value?(emoticon)
-    return "wink"
+    return emoji["wink"][:japanese]
   else
     return "Sorry, that emoticon was not found"
   end
