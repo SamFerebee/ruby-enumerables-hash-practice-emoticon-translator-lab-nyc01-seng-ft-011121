@@ -22,7 +22,7 @@ end
 
 def get_english_meaning(path, emoticon)
   emoji = load_library(path)
-  if emoji.has_key?(emoticon)
+  if emoji.has_value?(emoticon)
     emoji[emoticon][:english]
   else
     return "Sorry, that emoticon was not found"
