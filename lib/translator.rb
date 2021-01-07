@@ -7,7 +7,7 @@ def load_library(path)
   emoji_hash[:angry] = {:english =>">:(", :japanese =>"ヽ(ｏ`皿′ｏ)ﾉ"}
   emoji_hash[:bored] = {:english => ":O", :japanese => "(ΘεΘ;)"}
   emoji_hash[:confused] = {:english => "%)", :japanese => "(゜.゜)"}
-  emoji_hash[:embarrassed] = {:english => ":$" , :japanese => "(゜.゜)"}
+  emoji_hash[:embarrassed] = {:english => ":$" , :japanese => "(#^.^#)"}
   emoji_hash[:fish] = {:english => "><>", :japanese =>"゜))))彡"}
   emoji_hash[:glasses] = {:english => "8D", :japanese => "(^0_0^)"}
   emoji_hash[:grinning] = {:english => "=D", :japanese => "(￣ー￣)"}
