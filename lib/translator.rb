@@ -4,9 +4,9 @@ require "pry"
 def load_library(path)
   emoji_hash = {}
   emoji_hash[:angel] = {:enlish => "O:)", :japanese => "☜(⌒▽⌒)☞"}
-  emoji_hash[:angry] = {:english =>">:(" :japanese =>"ヽ(ｏ`皿′ｏ)ﾉ"}
-  emoji_hash[:bored] = {:english => ":O" :japanese => "(ΘεΘ;)"}
-  emoji_hash[:confused] = {}
+  emoji_hash[:angry] = {:english =>">:(", :japanese =>"ヽ(ｏ`皿′ｏ)ﾉ"}
+  emoji_hash[:bored] = {:english => ":O", :japanese => "(ΘεΘ;)"}
+  emoji_hash[:confused] = {:english => "%)", :japanese => "(゜.゜)"}
   emoji_hash[:embarrassed] = {}
   emoji_hash[:fish] = {}
   emoji_hash[:glasses] = {}
