@@ -74,7 +74,7 @@ def get_japanese_emoticon(path, emoticon)
   elsif emoji["glasses"].has_value?(emoticon)
     return "glasses"
   elsif emoji["grinning"].has_value?(emoticon)
-    return "grinning"
+    return emoji["grinning"][:japanese]
   elsif emoji["happy"].has_value?(emoticon)
     return "happy"
   elsif emoji["kiss"].has_value?(emoticon)
