@@ -58,17 +58,15 @@ end
 def get_japanese_emoticon(path, emoticon)
   emoji = load_library(path)
   if emoji["angel"].has_value?(emoticon)
-    return "angel"
+    return emoji["angel"][:japanese]
   elsif emoji["angry"].has_value?(emoticon)
-    return "angry"
+    return emoji["angry"][:japanese]
   elsif emoji["bored"].has_value?(emoticon)
-    return "bored"
-  elsif emoji["bored"].has_value?(emoticon)
-    return "bored"
+    return emoji["bored"][:japanese]
   elsif emoji["confused"].has_value?(emoticon)
-    return "confused"
+    return emoji["confused"][:japanese]
   elsif emoji["embarrassed"].has_value?(emoticon)
-    return "embarrassed"
+    return emoji["embarrassed"][:japanese]
   elsif emoji["fish"].has_value?(emoticon)
     return "fish"
   elsif emoji["glasses"].has_value?(emoticon)
