@@ -14,8 +14,8 @@ def load_library(path)
   emoji_hash[:happy] = {}
   emoji_hash[:kiss] = {}
   emoji_hash[:sad] = {}
-  emoji_hash[:angel] = {}
-  emoji_hash[:angel] = {}
+  emoji_hash[:surprised] = {}
+  emoji_hash[:wink] = {}
   emoji_hash[:get_emoticon] = {}
   emoji = YAML.load_file(path)
   emoji.each do |word, emojis|
