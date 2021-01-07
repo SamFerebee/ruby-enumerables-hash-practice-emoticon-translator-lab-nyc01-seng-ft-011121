@@ -21,7 +21,6 @@ def load_library(path)
 end
 
 def get_english_meaning(path, emoticon)
-  puts emoticon
   emoji = load_library(path)
   if emoji.has_key?(emoticon)
     emoji[emoticon][:english]
