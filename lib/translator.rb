@@ -11,7 +11,7 @@ def load_library(path)
   emoji_hash[:fish] = {:english => "><>", :japanese =>">゜))))彡"}
   emoji_hash[:glasses] = {:english => "8D", :japanese => "(^0_0^)"}
   emoji_hash[:grinning] = {:english => "=D", :japanese => "(￣ー￣)"}
-  emoji_hash[:happy] = {}
+  emoji_hash[:happy] = {:english =>":)", :japanese => "(＾ｖ＾)"}
   emoji_hash[:kiss] = {}
   emoji_hash[:sad] = {}
   emoji_hash[:surprised] = {}
