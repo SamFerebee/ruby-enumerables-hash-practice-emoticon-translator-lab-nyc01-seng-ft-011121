@@ -9,7 +9,10 @@ def load_library(path)
   emoji_hash[:confused] = {}
   emoji_hash[:embarrassed] = {}
   emoji_hash[:fish] = {}
-  emoji_hash[:angel] = {}
+  emoji_hash[:glasses] = {}
+  emoji_hash[:grinning] = {}
+  emoji_hash[:happy] = {}
+  emoji_hash[:kiss] = {}
   emoji_hash[:get_emoticon] = {}
   emoji = YAML.load_file(path)
   emoji.each do |word, emojis|
