@@ -14,8 +14,8 @@ def load_library(path)
     :happy => {:english =>":)", :japanese => "(＾ｖ＾)"},
     :kiss => {:english =>   - ":*", :japanese => "(*^3^)/~☆"},
     :sad => {:english =>":'(", :japanese => "(Ｔ▽Ｔ)"},
-    :surprised] = {:english => ":o", :japanese => "o_O"},
-    :wink] = {:english =>";)", :japanese => "(^_-)"}
+    :surprised = {:english => ":o", :japanese => "o_O"},
+    :wink = {:english =>";)", :japanese => "(^_-)"}
   }
   emoji_hash
 end
